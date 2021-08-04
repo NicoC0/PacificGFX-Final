@@ -1,0 +1,19 @@
+// Fuentes
+$fuente-open: "Open Sans", sans-serif;
+$fuente-roboto: "Roboto", sans-serif;
+
+// Colores
+$color-azul: #106eea;
+$color-azulHover: #3b8af2;
+
+// Mixins
+@mixin marpad($padding, $margin){
+    padding: $padding;
+    margin: $margin;
+}
+
+@each $servicio in sLettering, SdisenioGrafico, sIlustracion{
+    .#{$servicio} {
+        border: 3px solid $color-azul;
+    }
+}

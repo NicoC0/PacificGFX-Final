@@ -1,0 +1,9 @@
+#Ignorar node_modules
+node_modules
+
+#Ignorar vscode
+vscode
+
+#Ignorar .json  
+package.json
+package-lock.json

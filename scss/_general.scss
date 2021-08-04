@@ -1,0 +1,24 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: $fuente-open;
+    color: #444444;
+  }
+  
+a {
+color: $color-azul;
+}
+  
+a:hover {
+color: $color-azulHover;
+text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: $fuente-roboto;
+}
+
+.row{
+padding-bottom: 30px;
+}

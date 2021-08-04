@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+# Clientes
+--------------------------------------------------------------*/
+.clients {
+	padding: 15px 0;
+	text-align: center;
+	img {
+		max-width: 45%;
+		transition: all 0.4s ease-in-out;
+		display: inline-block;
+		padding: 15px 0;
+		&:hover {
+			transform: scale(1.15);
+		}
+	}
+}
+@media (max-width: 768px) {
+	.clients {
+		img {
+			max-width: 40%;
+		}
+	}
+}

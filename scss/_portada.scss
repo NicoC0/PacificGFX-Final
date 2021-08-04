@@ -1,0 +1,117 @@
+/*--------------------------------------------------------------
+# Portada
+--------------------------------------------------------------*/
+#portada {
+	width: 100%;
+	height: 75vh;
+	background: url("../assets/img/portada-bg.jpg") top left;
+	background-size: cover;
+	position: relative;
+	&:before {
+		content: "";
+		background: rgba(255, 255, 255, 0.6);
+		position: absolute;
+		bottom: 0;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+	.container {
+		position: relative;
+		padding-top: 132px;
+	}
+	h1 {
+		margin: 0;
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 56px;
+		color: #222222;
+		font-family: "Poppins", sans-serif;
+		span {
+			color: $color-azul;
+		}
+	}
+	h2 {
+		color: #555555;
+		margin: 5px 0 30px 0;
+		font-size: 24px;
+		font-weight: 400;
+	}
+	.btn-get-started {
+		font-family: $fuente-roboto;
+		text-transform: uppercase;
+		font-weight: 500;
+		font-size: 14px;
+		letter-spacing: 1px;
+		display: inline-block;
+		padding: 10px 28px;
+		border-radius: 4px;
+		transition: 0.5s;
+		color: #fff;
+		background: $color-azul;
+		&:hover {
+			background: $color-azulHover;
+		}
+	}
+	.btn-watch-video {
+		font-size: 16px;
+		display: inline-block;
+		padding: 10px 25px 8px 40px;
+		transition: 0.5s;
+		margin-left: 25px;
+		color: #222222;
+		position: relative;
+		font-weight: 600;
+		i {
+			color: $color-azul;
+			font-size: 32px;
+			position: absolute;
+			left: 0;
+			top: 7px;
+			transition: 0.3s;
+		}
+		&:hover {
+			color: $color-azul;
+			i {
+				color: $color-azulHover;
+			}
+		}
+	}
+}
+@media (max-width: 992px) {
+	#portada {
+		.container {
+			padding-top: 58px;
+		}
+	}
+}
+@media (min-width: 1024px) {
+	#portada {
+		background-attachment: fixed;
+	}
+}
+@media (max-width: 768px) {
+	#portada {
+		height: 100vh;
+		h1 {
+			font-size: 28px;
+			line-height: 36px;
+		}
+		h2 {
+			font-size: 18px;
+			line-height: 24px;
+			margin-bottom: 30px;
+		}
+		.btn-get-started {
+			font-size: 13px;
+		}
+		.btn-watch-video {
+			font-size: 13px;
+		}
+	}
+}
+@media (max-height: 500px) {
+	#portada {
+		height: 120vh;
+	}
+}

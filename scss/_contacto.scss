@@ -1,0 +1,130 @@
+/*--------------------------------------------------------------
+# Contacto
+--------------------------------------------------------------*/
+
+.contact {
+	.info-box {
+		color: #444444;
+		text-align: center;
+		box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
+		padding: 20px 0 30px 0;
+		i {
+			font-size: 32px;
+			color: $color-azul;
+			border-radius: 50%;
+			padding: 8px;
+			border: 2px dotted #b3d1fa;
+		}
+		h3 {
+			font-size: 20px;
+			color: #777777;
+			font-weight: 700;
+			margin: 10px 0;
+		}
+		p {
+			padding: 0;
+			line-height: 24px;
+			font-size: 14px;
+			margin-bottom: 0;
+		}
+	}
+	.php-email-form {
+		box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
+		padding: 30px;
+		.validate {
+			display: none;
+			color: red;
+			margin: 0 0 15px 0;
+			font-weight: 400;
+			font-size: 13px;
+		}
+		.error-message {
+			display: none;
+			color: #fff;
+			background: #ed3c0d;
+			text-align: left;
+			padding: 15px;
+			font-weight: 600;
+			br {
+				+ {
+					br {
+						margin-top: 25px;
+					}
+				}
+			}
+		}
+		.sent-message {
+			display: none;
+			color: #fff;
+			background: #18d26e;
+			text-align: center;
+			padding: 15px;
+			font-weight: 600;
+		}
+		.loading {
+			display: none;
+			background: #fff;
+			text-align: center;
+			padding: 15px;
+			&:before {
+				content: "";
+				display: inline-block;
+				border-radius: 50%;
+				width: 24px;
+				height: 24px;
+				margin: 0 10px -6px 0;
+				border: 3px solid #18d26e;
+				border-top-color: #eee;
+				-webkit-animation: animate-loading 1s linear infinite;
+				animation: animate-loading 1s linear infinite;
+			}
+		}
+		input {
+			border-radius: 0;
+			box-shadow: none;
+			font-size: 14px;
+			padding: 20px 15px;
+			&:focus {
+				border-color: $color-azul;
+			}
+		}
+		textarea {
+			border-radius: 0;
+			box-shadow: none;
+			font-size: 14px;
+			padding: 12px 15px;
+			&:focus {
+				border-color: $color-azul;
+			}
+		}
+		button[type="submit"] {
+			background: $color-azul;
+			border: 0;
+			padding: 10px 30px;
+			color: #fff;
+			transition: 0.4s;
+			border-radius: 4px;
+			&:hover {
+				background: $color-azulHover;
+			}
+		}
+	}
+}
+
+
+@-webkit-keyframes animate-loading {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@keyframes animate-loading {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

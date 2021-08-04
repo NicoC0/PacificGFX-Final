@@ -1,0 +1,47 @@
+/*--------------------------------------------------------------
+# Noticias
+--------------------------------------------------------------*/
+.badge {
+	color: white;
+}
+.noticias {
+	.content {
+		h3 {
+			font-weight: 600;
+			font-size: 26px;
+		}
+		ul {
+			list-style: none;
+			padding: 0;
+			li {
+				display: flex;
+				align-items: flex-start;
+				margin-bottom: 35px;
+				&:first-child {
+					margin-top: 35px;
+				}
+			}
+			i {
+				background: #fff;
+				box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
+				font-size: 24px;
+				padding: 20px;
+				margin-right: 15px;
+				color: $color-azul;
+				border-radius: 50px;
+			}
+			h5 {
+				font-size: 18px;
+				color: #555555;
+			}
+			p {
+				font-size: 15px;
+			}
+		}
+		p {
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

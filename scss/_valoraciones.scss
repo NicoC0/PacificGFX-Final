@@ -1,0 +1,105 @@
+
+/*--------------------------------------------------------------
+# Valoraciones
+--------------------------------------------------------------*/
+.valoraciones {
+    padding: 80px 0;
+    background: url("../assets/img/testimonials-bg.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .valoraciones::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .valoraciones .section-header {
+    margin-bottom: 40px;
+  }
+  
+  .valoraciones .valoracion-item {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .valoraciones .valoracion-item .valoracion-img {
+    width: 100px;
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+  }
+  
+  .valoraciones .valoracion-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #fff;
+  }
+  
+  .valoraciones .valoracion-item h4 {
+    font-size: 14px;
+    color: #ddd;
+    margin: 0 0 15px 0;
+  }
+  
+  .valoraciones .valoracion-item .quote-icon-left, .valoraciones .valoracion-item .quote-icon-right {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 26px;
+  }
+  
+  .valoraciones .valoracion-item .quote-icon-left {
+    display: inline-block;
+    left: -5px;
+    position: relative;
+  }
+  
+  .valoraciones .valoracion-item .quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .valoraciones .valoracion-item p {
+    font-style: italic;
+    margin: 0 auto 15px auto;
+    color: #eee;
+  }
+  
+  .valoraciones .owl-nav, .valoraciones .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .valoraciones .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4) !important;
+  }
+  
+  .valoraciones .owl-dot.active {
+    background-color: $color-azul !important;
+  }
+  
+  @media (min-width: 1024px) {
+    .valoraciones {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .valoraciones .valoracion-item p {
+      width: 80%;
+    }
+  }
+  

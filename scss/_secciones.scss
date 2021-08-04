@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+# Secciones-generales
+--------------------------------------------------------------*/
+section {
+	padding: 60px 0;
+	overflow: hidden;
+}
+.section-bg {
+	background-color: #f6f9fe;
+}
+.section-title {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	h2 {
+		font-size: 13px;
+		letter-spacing: 1px;
+		font-weight: 700;
+		padding: 8px 20px;
+		margin: 0;
+		background: #e7f1fd;
+		color: $color-azul;
+		display: inline-block;
+		text-transform: uppercase;
+		border-radius: 50px;
+	}
+	h3 {
+		margin: 15px 0 0 0;
+		font-size: 32px;
+		font-weight: 700;
+		span {
+			color: $color-azul;
+		}
+	}
+	p {
+		margin: 15px auto 0 auto;
+		font-weight: 600;
+	}
+}
+@media (min-width: 1024px) {
+	.section-title {
+		p {
+			width: 50%;
+		}
+	}
+}
