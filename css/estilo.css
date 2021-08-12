@@ -1293,12 +1293,11 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Counts
+# ventajas
 --------------------------------------------------------------*/
 .counts {
   padding: 70px 0 60px;
 }
-
 .counts .count-box {
   padding: 30px 30px 25px 30px;
   width: 100%;
@@ -1306,7 +1305,6 @@ section {
   text-align: center;
   background: #f1f6fe;
 }
-
 .counts .count-box i {
   position: absolute;
   top: -28px;
@@ -1324,14 +1322,12 @@ section {
   align-items: center;
   justify-content: center;
 }
-
 .counts .count-box span {
   font-size: 36px;
   display: block;
   font-weight: 600;
   color: #062b5b;
 }
-
 .counts .count-box p {
   padding: 0;
   margin: 0;
