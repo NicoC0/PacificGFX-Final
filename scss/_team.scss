@@ -69,4 +69,9 @@
 			}
 		}
 	}
+    .row-team{
+		display: flex;
+		flex-flow: wrap;
+		justify-content: center;
+	}
 }
