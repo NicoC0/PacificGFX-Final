@@ -1293,19 +1293,19 @@ section {
 }
 
 /*--------------------------------------------------------------
-# ventajas
+# Trayectoria
 --------------------------------------------------------------*/
-.counts {
+.trayectoria {
   padding: 70px 0 60px;
 }
-.counts .count-box {
+.trayectoria .trayectoria-box {
   padding: 30px 30px 25px 30px;
   width: 100%;
   position: relative;
   text-align: center;
   background: #f1f6fe;
 }
-.counts .count-box i {
+.trayectoria .trayectoria-box i {
   position: absolute;
   top: -28px;
   left: 50%;
@@ -1322,13 +1322,13 @@ section {
   align-items: center;
   justify-content: center;
 }
-.counts .count-box span {
+.trayectoria .trayectoria-box span {
   font-size: 36px;
   display: block;
   font-weight: 600;
   color: #062b5b;
 }
-.counts .count-box p {
+.trayectoria .trayectoria-box p {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -1338,75 +1338,47 @@ section {
 /*--------------------------------------------------------------
 # Equipo
 --------------------------------------------------------------*/
-.team {
+.equipo {
   padding: 60px 0;
 }
-.team .member {
+.equipo .miembro {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 4px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
 }
-.team .member .member-img {
+.equipo .miembro .miembro-img {
   position: relative;
   overflow: hidden;
 }
-.team .member .social {
-  position: absolute;
-  left: 0;
-  bottom: 30px;
-  right: 0;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  text-align: center;
-}
-.team .member .social a {
-  transition: color 0.3s;
-  color: #222222;
-  margin: 0 3px;
-  padding-top: 7px;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
-  background: rgba(16, 110, 234, 0.8);
-  display: inline-block;
-  transition: ease-in-out 0.3s;
-  color: #fff;
-}
-.team .member .social a:hover {
-  background: #3b8af2;
-}
-.team .member .social i {
-  font-size: 18px;
-}
-.team .member .member-info {
+.equipo .miembro .miembro-info {
   padding: 25px 15px;
   text-align: center;
 }
-.team .member .member-info h4 {
+.equipo .miembro .miembro-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
   color: #222222;
 }
-.team .member .member-info span {
+.equipo .miembro .miembro-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
   color: #aaaaaa;
 }
-.team .member .member-info p {
+.equipo .miembro .miembro-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
   color: #777777;
 }
-.team .member:hover .social {
+.equipo .miembro:hover .social {
   opacity: 1;
   bottom: 15px;
 }
-.team .row-team {
+.equipo .row-equipo {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
