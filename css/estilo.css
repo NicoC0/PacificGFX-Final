@@ -767,10 +767,6 @@ section {
 /*--------------------------------------------------------------
 # Noticias
 --------------------------------------------------------------*/
-.badge {
-  color: white;
-}
-
 .noticias .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -805,6 +801,9 @@ section {
 }
 .noticias .content p:last-child {
   margin-bottom: 0;
+}
+.noticias .badge {
+  color: white;
 }
 
 /*--------------------------------------------------------------
