@@ -33,7 +33,7 @@
 		position: relative;
 		color: #222222;
 		transition: 0.3s;
-		font-size: 15px;
+		font-size: 0.938rem;
 		font-weight: 600;
 		padding: 0 3px;
 		font-family: $fuente-open;
@@ -80,7 +80,7 @@
 			transition: 0.3s;
 			a {
 				padding: 10px 20px;
-				font-size: 14px;
+				font-size: 0.875rem;
 				font-weight: 500;
 				text-transform: none;
 				color: #062b5b;
@@ -150,7 +150,7 @@
 	z-index: 9998;
 	border: 0;
 	background: none;
-	font-size: 24px;
+	font-size: 1.5rem;
 	transition: all 0.4s;
 	outline: none !important;
 	line-height: 1;

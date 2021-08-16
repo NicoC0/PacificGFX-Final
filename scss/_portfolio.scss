@@ -13,7 +13,7 @@
 			cursor: pointer;
 			display: inline-block;
 			padding: 10px 15px 8px 15px;
-			font-size: 16px;
+			font-size: 1rem;
 			font-weight: 600;
 			line-height: 1;
 			text-transform: uppercase;
@@ -44,61 +44,15 @@
 			background: rgba(255, 255, 255, 0.9);
 			padding: 15px;
 			h4 {
-				font-size: 18px;
+				font-size: 1.125rem;
 				color: #fff;
 				font-weight: 600;
 				color: #222222;
 			}
 			p {
 				color: #555555;
-				font-size: 14px;
+				font-size: 0.875rem;
 				margin-bottom: 0;
-			}
-			.preview-link {
-				position: absolute;
-				right: 40px;
-				font-size: 24px;
-				top: calc(50% - 18px);
-				color: #3c3c3c;
-				&:hover {
-					color: $color-azul;
-				}
-			}
-			.details-link {
-				position: absolute;
-				right: 40px;
-				font-size: 24px;
-				top: calc(50% - 18px);
-				color: #3c3c3c;
-				right: 10px;
-				&:hover {
-					color: $color-azul;
-				}
-			}
-		}
-		.portfolio-links {
-			opacity: 0;
-			left: 0;
-			right: 0;
-			text-align: center;
-			z-index: 3;
-			position: absolute;
-			transition: all ease-in-out 0.3s;
-			a {
-				color: #fff;
-				margin: 0 2px;
-				font-size: 28px;
-				display: inline-block;
-				transition: 0.3s;
-				&:hover {
-					color: #6ba7f5;
-				}
-			}
-		}
-		&:hover {
-			.portfolio-info {
-				opacity: 1;
-				bottom: 20px;
 			}
 		}
 	}
@@ -140,7 +94,7 @@
 		box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 		z-index: 2;
 		h3 {
-			font-size: 22px;
+			font-size: 1.375rem;
 			font-weight: 700;
 			margin-bottom: 20px;
 			padding-bottom: 20px;
@@ -149,7 +103,7 @@
 		ul {
 			list-style: none;
 			padding: 0;
-			font-size: 15px;
+			font-size: 0.938rem;
 			li {
 				+ {
 					li {
@@ -163,7 +117,7 @@
 		padding-top: 50px;
 		h2 {
 			width: 50%;
-			font-size: 26px;
+			font-size: 1.625rem;
 			font-weight: 700;
 			margin-bottom: 20px;
 		}

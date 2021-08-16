@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 #topbar {
   background: #26b2fd;
   height: 40px;
-  font-size: 14px;
+  font-size: 0.875rem;
   transition: all 0.5s;
   color: #fff;
   display: flex;
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px;
 }
 #header .logo {
-  font-size: 32px;
+  font-size: 2rem;
   padding: 0;
   margin: 0;
   line-height: 1;
@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #header .logo {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 }
 /*--------------------------------------------------------------
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: #222222;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 0.938rem;
   font-weight: 600;
   padding: 0 3px;
   font-family: "Open Sans", sans-serif;
@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav-menu .drop-down ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   text-transform: none;
   color: #062b5b;
@@ -331,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9998;
   border: 0;
   background: none;
-  font-size: 24px;
+  font-size: 1.5rem;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
@@ -464,7 +464,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #portada h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -476,7 +476,7 @@ h1, h2, h3, h4, h5, h6 {
 #portada h2 {
   color: #fff;
   margin: 5px 0 30px 0;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -495,19 +495,13 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
   }
   #portada h1 {
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 36px;
   }
   #portada h2 {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 24px;
     margin-bottom: 30px;
-  }
-  #portada .btn-get-started {
-    font-size: 13px;
-  }
-  #portada .btn-watch-video {
-    font-size: 13px;
   }
 }
 @media (max-height: 500px) {
@@ -533,7 +527,7 @@ section {
   padding-bottom: 30px;
 }
 .section-title h2 {
-  font-size: 13px;
+  font-size: 0.813rem;
   letter-spacing: 1px;
   font-weight: 700;
   padding: 8px 20px;
@@ -546,7 +540,7 @@ section {
 }
 .section-title h3 {
   margin: 15px 0 0 0;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
 }
 .section-title h3 span {
@@ -572,7 +566,7 @@ section {
   margin-top: 134px;
 }
 .breadcrumbs h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 300;
   margin: 0;
 }
@@ -582,7 +576,7 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .breadcrumbs ol li + li {
   padding-left: 10px;
@@ -636,14 +630,14 @@ section {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
   padding: 20px 15px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   color: #777777;
   background: #f8f8f8;
 }
 
 .servicio .box h4 {
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #26b2fd;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -651,14 +645,14 @@ section {
 }
 
 .servicio .box h4 sup {
-  font-size: 20px;
+  font-size: 1.25rem;
   top: -15px;
   left: -3px;
 }
 
 .servicio .box h4 span {
   color: #bababa;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -668,7 +662,7 @@ section {
   color: #444444;
   text-align: center;
   line-height: 20px;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .servicio .box ul li {
@@ -677,7 +671,7 @@ section {
 
 .servicio .box ul i {
   color: #26b2fd;
-  font-size: 18px;
+  font-size: 1.125rem;
   padding-right: 4px;
 }
 
@@ -698,7 +692,7 @@ section {
   right: -68px;
   transform: rotate(45deg);
   z-index: 1;
-  font-size: 14px;
+  font-size: 0.875rem;
   padding: 1px 0 3px 0;
   background: #26b2fd;
   color: #fff;
@@ -729,7 +723,7 @@ section {
 --------------------------------------------------------------*/
 .noticias .content h3 {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 1.625rem;
 }
 .noticias .content ul {
   list-style: none;
@@ -746,18 +740,18 @@ section {
 .noticias .content ul i {
   background: #fff;
   box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
-  font-size: 24px;
+  font-size: 1.5rem;
   padding: 20px;
   margin-right: 15px;
   color: #26b2fd;
   border-radius: 50px;
 }
 .noticias .content ul h5 {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #555555;
 }
 .noticias .content ul p {
-  font-size: 15px;
+  font-size: 0.938rem;
 }
 .noticias .content p:last-child {
   margin-bottom: 0;
@@ -826,21 +820,21 @@ section {
 }
 
 .valoraciones .valoracion-item h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #fff;
 }
 
 .valoraciones .valoracion-item h4 {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #ddd;
   margin: 0 0 15px 0;
 }
 
 .valoraciones .valoracion-item .quote-icon-left, .valoraciones .valoracion-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.4);
-  font-size: 26px;
+  font-size: 1.625rem;
 }
 
 .valoraciones .valoracion-item .quote-icon-left {
@@ -905,7 +899,7 @@ section {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
@@ -937,59 +931,15 @@ section {
   padding: 15px;
 }
 .portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #fff;
   font-weight: 600;
   color: #222222;
 }
 .portfolio .portfolio-item .portfolio-info p {
   color: #555555;
-  font-size: 14px;
+  font-size: 0.875rem;
   margin-bottom: 0;
-}
-.portfolio .portfolio-item .portfolio-info .preview-link {
-  position: absolute;
-  right: 40px;
-  font-size: 24px;
-  top: calc(50% - 18px);
-  color: #3c3c3c;
-}
-.portfolio .portfolio-item .portfolio-info .preview-link:hover {
-  color: #26b2fd;
-}
-.portfolio .portfolio-item .portfolio-info .details-link {
-  position: absolute;
-  right: 40px;
-  font-size: 24px;
-  top: calc(50% - 18px);
-  color: #3c3c3c;
-  right: 10px;
-}
-.portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #26b2fd;
-}
-.portfolio .portfolio-item .portfolio-links {
-  opacity: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 3;
-  position: absolute;
-  transition: all ease-in-out 0.3s;
-}
-.portfolio .portfolio-item .portfolio-links a {
-  color: #fff;
-  margin: 0 2px;
-  font-size: 28px;
-  display: inline-block;
-  transition: 0.3s;
-}
-.portfolio .portfolio-item .portfolio-links a:hover {
-  color: #6ba7f5;
-}
-.portfolio .portfolio-item:hover .portfolio-info {
-  opacity: 1;
-  bottom: 20px;
 }
 
 .portfolio-details {
@@ -1031,7 +981,7 @@ section {
   z-index: 2;
 }
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -1040,7 +990,7 @@ section {
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 0.938rem;
 }
 .portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
@@ -1050,7 +1000,7 @@ section {
 }
 .portfolio-details .portfolio-description h2 {
   width: 50%;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -1077,14 +1027,14 @@ section {
   padding: 20px 0 30px 0;
 }
 .contact .info-box i {
-  font-size: 32px;
+  font-size: 2rem;
   color: #26b2fd;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #b3d1fa;
 }
 .contact .info-box h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #777777;
   font-weight: 700;
   margin: 10px 0;
@@ -1092,7 +1042,7 @@ section {
 .contact .info-box p {
   padding: 0;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 0.875rem;
   margin-bottom: 0;
 }
 .contact .php-email-form {
@@ -1102,7 +1052,7 @@ section {
 .contact .php-email-form input {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   padding: 20px 15px;
 }
 .contact .php-email-form input:focus {
@@ -1111,7 +1061,7 @@ section {
 .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   padding: 12px 15px;
 }
 .contact .php-email-form textarea:focus {
@@ -1152,7 +1102,7 @@ section {
   background: #fff;
   padding: 0 0 30px 0;
   color: #444444;
-  font-size: 14px;
+  font-size: 0.875rem;
   background: #f1f6fe;
   height: 100px;
 }
@@ -1165,7 +1115,7 @@ section {
   flex-flow: wrap nowrap;
   justify-content: center;
   margin-top: 16px;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 #footer .social-footer a {
   margin-right: 30px;
@@ -1225,7 +1175,7 @@ section {
   top: -28px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
+  font-size: 1.5rem;
   background: #26b2fd;
   color: #fff;
   width: 56px;
@@ -1238,7 +1188,7 @@ section {
   justify-content: center;
 }
 .trayectoria .trayectoria-box span {
-  font-size: 36px;
+  font-size: 2.25rem;
   display: block;
   font-weight: 600;
   color: #062b5b;
@@ -1247,7 +1197,7 @@ section {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 /*--------------------------------------------------------------
@@ -1279,13 +1229,13 @@ section {
 }
 .equipo .miembro .miembro-info span {
   display: block;
-  font-size: 13px;
+  font-size: 0.813rem;
   font-weight: 400;
   color: #26b2fd;
 }
 .equipo .miembro .miembro-info p {
   font-style: italic;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 26px;
   color: #777777;
 }

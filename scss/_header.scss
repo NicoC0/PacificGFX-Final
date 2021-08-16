@@ -16,7 +16,7 @@
     }
 
     .logo {
-        font-size: 32px;
+        font-size: 2rem;
         @include marpad(0, 0);
         line-height: 1;
         font-weight: 600;
@@ -42,6 +42,6 @@
       top: 0;
     }
     #header .logo {
-      font-size: 28px;
+      font-size: 1.75rem;
     }
   }
