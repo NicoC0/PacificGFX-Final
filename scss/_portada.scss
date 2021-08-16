@@ -4,17 +4,8 @@
 #portada {
 	width: 100%;
 	height: 75vh;
-	background: url("../assets/img/portada-bg.jpg") top left;
-	background-size:auto;
-	position: center;
-	&:before {
-		content: "";
-		position: absolute;
-		bottom: 0;
-		top: 0;
-		left: 0;
-		right: 0;
-	}
+	background-color: black;
+	
 	.container {
 		position: relative;
 		padding-top: 132px;
