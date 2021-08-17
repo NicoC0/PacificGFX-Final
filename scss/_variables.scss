@@ -15,6 +15,6 @@ $color-azulHover: #3b8af2;
 
 @each $servicio in sLettering, SdisenioGrafico, sIlustracion{
     .#{$servicio} {
-        border: 3px solid $color-azul;
+        border: 4px solid $color-azul;
     }
 }
